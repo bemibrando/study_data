@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  ebac:
+    build: .
+    container_name: py-analyses
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    command: sleep infinity

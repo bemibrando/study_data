@@ -1,0 +1,35 @@
+[project]
+name = "py-analyses"
+version = "0.1.0"
+description = "EDA and ML exploration for project dataset"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "jupyter",
+    "plotly",
+    "kaggle",
+    "ipykernel",
+    "openpyxl"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "black",
+    "nbstripout"
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
