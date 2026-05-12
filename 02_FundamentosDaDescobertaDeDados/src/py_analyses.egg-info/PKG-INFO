@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: py-analyses
+Version: 0.1.0
+Summary: EDA and ML exploration for project dataset
+Requires-Python: >=3.11
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: jupyter
+Requires-Dist: plotly
+Requires-Dist: kaggle
+Requires-Dist: ipykernel
+Requires-Dist: openpyxl
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: nbstripout; extra == "dev"
